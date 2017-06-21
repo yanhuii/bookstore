@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#all{
+	margin: 0 auto;
+	width: 1280px;
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+@font-face{
+	src:url(../font/Ko.otf);
+	font-family: ppp;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color: #537D9B;
+}
+.ul1{
+	position: fixed;
+	margin: 100px 40px;
+	font-size: 18px;
+}
+.li{
+	list-style: none;
+	margin: 20px;
+	width: 300px;
+	height: 20px;
+}
+.li1,.li2,.li3,.li4,.li5,.li6{
+	position: absolute;
+	left: 0;
+	transition: left 1s;
+}
+.li0{
+	position: relative;
+	top: -60px;
+}
+.li1{
+	top: 50px;
+}
+.li2{
+	top: 110px;
+}
+.li3{
+	top: 170px;
+}
+.li4{
+	top: 230px;
+}
+.li5{
+	top: 290px;
+}
+.li6{
+	top: 350px;
+}
+.li1:hover,.li2:hover,.li3:hover,.li4:hover,.li5:hover,.li6:hover{
+	left: 60px;
+	transform: scale(1.2);
+}
+#center{
+	width: 800px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 120px;
+	font-family: ppp;
+}
+.po{
+	margin-left: 200px;
+}
+input{
+	margin-top: 100px;
+	margin-left: 600px;
+	outline: none;
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	width: 100px;
+	height: 40px;
+	color: gray;
+}
